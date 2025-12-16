@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    height: 300px;
+     justify-content:space-between;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+  
+
+    
+}
+.teste{
+    width: 100px;
+    height:100px;
+    background-color: pink;
+    border: 1px solid rgb(219, 108, 151);
+}
+div{
+    transition: widht 1s height 2s;
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    font-family: cursive;
+    color: rgb(223, 58, 140);
+
+}
+div:hover{
+    width:200px;
+    height:200px;
+}
+h1{
+    margin-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(243, 197, 204);
+ }
+ .teste1{
+    display: flex;
+    height: 40vh;
+    flex-flow: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    align-self:flex-start;
+    margin-top: 30px;
+
+
+}
+.teste2{
+    flex-basis:10px;
+}
