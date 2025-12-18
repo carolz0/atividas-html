@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul{
+    background: black;
+    list-style-type: none;
+
+}
+li{
+    display: inline-block;
+   
+}
+a{
+    color: white;
+    text-decoration: none;    
+    padding: 15px;                                                                                                                                                                                         
+
+}
+a:hover{
+    background: red;
+}
+
+.Dropdown{
+    display: inline-block;
+}
+.Dropbtn{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+} 
+
+.Dropdown-content a{
+    color: black;
+    display: block;
+    border: solid black 1px;
+ }
+ .Dropdown-content{
+    display: none;
+    position: absolute;
+ }
+ .Dropdown:hover .Dropdown-content{
+    display: block;
+
+ }
+
+
+ 
